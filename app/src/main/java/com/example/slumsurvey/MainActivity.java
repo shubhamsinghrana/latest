@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAuth fauth;
     String email,password;
     EditText u,p;
+    TextView addsignup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         btnlogin=findViewById(R.id.btnlogin);
         p=findViewById(R.id.pass1);
         u=findViewById(R.id.usname);
+        addsignup=findViewById(R.id.addsignup);
         fauth=FirebaseAuth.getInstance();
         if (fauth.getCurrentUser()!=null)
         {
@@ -41,7 +44,21 @@ public class MainActivity extends AppCompatActivity {
 
 
         // requestWindowFeature(Window.FEATURE_NO_TITLE); //will hide the title
-        getSupportActionBar().hide(); // hide the title bar
+        getSupportActionBar().hide();
+        addsignup.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View view) {
+
+                Intent a1 = new Intent(MainActivity.this,signup.class);
+                startActivity(a1);
+                MainActivity.this.finish();
+
+
+                }
+
+        });// hide the title bar
         btnlogin.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -51,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (u.getText().toString().trim().equals("")) {
                     u.setError("This field cannot be empty");
-                } else if (u.getText().toString().trim().equals("")) {
+                } else if (p.getText().toString().trim().equals("")) {
                     p.setError("This field cannot be empty");
                 } else {
                     fauth.signInWithEmailAndPassword(u.getText().toString(), p.getText().toString()).addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {

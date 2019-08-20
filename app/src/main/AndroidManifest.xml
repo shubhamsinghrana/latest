@@ -14,7 +14,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Infoshow"></activity>
+        <activity android:name=".deletemember"></activity>
+        <activity android:name=".addnewmember" />
+        <activity android:name=".upload">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".edithead" />
+        <activity android:name=".signup" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Infoshow" />
         <activity android:name=".mysubmission" />
         <activity android:name=".dash2" />
         <activity android:name=".userdisplay" />
@@ -23,11 +35,7 @@
         <activity android:name=".applicationform" />
         <activity android:name=".dashb" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

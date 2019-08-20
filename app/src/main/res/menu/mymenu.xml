@@ -6,14 +6,16 @@
         android:id="@+id/edithead"
         android:title="EDIT HEAD OF FAMILY" />
     <item
-        android:id="@+id/deletehousemem"
-        android:title="DELETE HOUSE MEMBER" />
+        android:id="@+id/edithouseinfo"
+        android:title="EDIT HOUSE INFO" />
     <item
         android:id="@+id/addhousemem"
         android:title="ADD HOUSE MEMBER" />
     <item
-        android:id="@+id/edithouseinfo"
-        android:title="EDIT HOUSE INFO" />
+        android:id="@+id/deletehousemem"
+        android:title="DELETE HOUSE MEMBER" />
+
+
     <item
         android:id="@+id/deleteentry"
         android:title="DELETE ENTRY" />

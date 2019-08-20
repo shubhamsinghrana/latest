@@ -73,12 +73,13 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:paddingVertical="10dp"
-                        android:text="Name of Slum: Locality a"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
 
+                    <!--HEADING-->
                     <TextView
                         android:id="@+id/adddesc"
                         android:layout_width="match_parent"
@@ -91,6 +92,7 @@
                         android:textSize="18sp"
                         android:textAlignment="center"
                         />
+                    <!--Box-->
                     <TextView
                         android:id="@+id/infoheadoffamily"
                         android:layout_width="match_parent"
@@ -98,12 +100,25 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:paddingVertical="10dp"
-                        android:text="Head of family: randomname"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
 
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Gender"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infogender"
                         android:layout_width="match_parent"
@@ -111,11 +126,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Gender : Male"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Father"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infofathersname"
                         android:layout_width="match_parent"
@@ -123,11 +151,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Father's name : abc "
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Age"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infoage"
                         android:layout_width="match_parent"
@@ -135,11 +176,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Age : 40"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Category"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infocategory"
                         android:layout_width="match_parent"
@@ -147,11 +201,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="category : General"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Religion"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/inforeligion"
                         android:layout_width="match_parent"
@@ -159,11 +226,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="religion : Hindhu"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Mobile Number"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infomobilenumber"
                         android:layout_width="match_parent"
@@ -171,12 +251,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Mobile Number: 1234567890"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
 
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Address"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infoaddress"
                         android:layout_width="match_parent"
@@ -184,11 +276,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Address: hno .."
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Family Income Yearly"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infofamincome"
                         android:layout_width="match_parent"
@@ -196,11 +301,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Family Income Yearly: 50000"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Nationality"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infonationality"
                         android:layout_width="match_parent"
@@ -208,11 +326,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Nationality:Indian"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Aadhar Number"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infoaadhar"
                         android:layout_width="match_parent"
@@ -220,7 +351,7 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Aadhar Number: 1234567890"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
@@ -239,228 +370,228 @@
                     android:textSize="18sp" />
 
                 <!--<LinearLayout-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_marginLeft="16dp"-->
-                    <!--android:layout_marginTop="10dp"-->
-                    <!--android:layout_marginRight="16dp"-->
-                    <!--android:orientation="vertical">-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:orientation="vertical">-->
 
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
 
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:text="Name: Xyz"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
-
-
-
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:text="Gender : Male"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
-
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:text="Age : 20"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:text="relation : Son"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:text="Aadhar Number: 1234567890"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
-
-                <!--</LinearLayout>-->
-                <!--<LinearLayout-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_marginLeft="16dp"-->
-                    <!--android:layout_marginTop="10dp"-->
-                    <!--android:layout_marginRight="16dp"-->
-                    <!--android:orientation="vertical">-->
-
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:text="Name: Xyz"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:text="Name: Xyz"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
 
 
 
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:text="Gender : Male"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="Gender : Male"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
 
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:text="Age : 20"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:text="relation : Son"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:text="Aadhar Number: 1234567890"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="Age : 20"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="relation : Son"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="Aadhar Number: 1234567890"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
 
                 <!--</LinearLayout>-->
                 <!--<LinearLayout-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_marginLeft="16dp"-->
-                    <!--android:layout_marginTop="10dp"-->
-                    <!--android:layout_marginRight="16dp"-->
-                    <!--android:orientation="vertical">-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:orientation="vertical">-->
 
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
 
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:text="Name: Xyz"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:text="Name: Xyz"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
 
 
 
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:text="Gender : Male"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="Gender : Male"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
 
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:text="Age : 20"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:text="relation : Son"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
-                    <!--<TextView-->
-                        <!--android:id="@+id/adddesc"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent"-->
-                        <!--android:paddingVertical="10dp"-->
-                        <!--android:layout_marginHorizontal="20dp"-->
-                        <!--android:layout_marginBottom="10dp"-->
-                        <!--android:text="Aadhar Number: 1234567890"-->
-                        <!--android:textColor="@color/colorPrimaryDark"-->
-                        <!--android:textSize="18sp"-->
-                        <!--android:textAlignment="center"-->
-                        <!--android:background="@drawable/bginputtask"/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="Age : 20"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="relation : Son"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="Aadhar Number: 1234567890"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
+
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:text="Name: Xyz"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
+
+
+
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="Gender : Male"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="Age : 20"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="relation : Son"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/adddesc"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingVertical="10dp"-->
+                <!--android:layout_marginHorizontal="20dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:text="Aadhar Number: 1234567890"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@drawable/bginputtask"/>-->
 
                 <!--</LinearLayout>-->
 
@@ -500,6 +631,18 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Area Occupied"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
+                    <TextView
                         android:id="@+id/infoareaoccupy"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -507,12 +650,24 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:paddingVertical="10dp"
-                        android:text="Area Occupies: 550 sqft"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
 
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Area Constructed/Built-up"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infoareaconstructed"
                         android:layout_width="match_parent"
@@ -520,12 +675,24 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:paddingVertical="10dp"
-                        android:text="Area Constructed Builtup: randomname"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
 
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Condition of House"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infoconditionofhouse"
                         android:layout_width="match_parent"
@@ -533,11 +700,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Condition of House: Pakka"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Rooms"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/inforoom"
                         android:layout_width="match_parent"
@@ -545,11 +725,25 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Room : Yes "
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Toilet"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infotoilet"
                         android:layout_width="match_parent"
@@ -557,11 +751,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Toilet : Yes"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Kitchens"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infokitchen"
                         android:layout_width="match_parent"
@@ -569,11 +776,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Kitchen : Yes"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Years of Staying"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infoyearofstaying"
                         android:layout_width="match_parent"
@@ -581,13 +801,24 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Years of Staying : 5"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
 
-
+                    <TextView
+                        android:id="@+id/adddesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:paddingVertical="10dp"
+                        android:text="Consent Signed"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        />
                     <TextView
                         android:id="@+id/infoconsentsigned"
                         android:layout_width="match_parent"
@@ -595,12 +826,19 @@
                         android:paddingVertical="10dp"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Consent Signed: Yes"
+                        android:text=""
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp"
                         android:textAlignment="center"
                         android:background="@drawable/bginputtask"/>
+                    <ListView
+                        android:id="@+id/mylistmember"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
 
+                    </ListView>
+
+                </LinearLayout>
 
 
                 </LinearLayout>
@@ -609,7 +847,7 @@
 
 
 
-            </LinearLayout>
+
 
         </androidx.appcompat.widget.LinearLayoutCompat>
     </ScrollView>

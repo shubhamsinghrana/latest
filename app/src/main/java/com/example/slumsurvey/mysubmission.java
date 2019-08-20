@@ -99,18 +99,22 @@ public class mysubmission extends AppCompatActivity {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
 
-                if(dataSnapshot.child("agentname").getValue(String.class).equals(firebaseAuth.getCurrentUser().getEmail()))
-                {
-                    String aa = dataSnapshot.getKey();
 
-                    String ss = dataSnapshot.child("headoffamily").child("headoffamily").getValue(String.class);
-                    String ss1 = dataSnapshot.child("headoffamily").child("nameofslum").getValue(String.class);
+                    if(dataSnapshot.child("agentname").getValue(String.class).equals(firebaseAuth.getCurrentUser().getEmail()))
+                    {
+                        String aa = dataSnapshot.getKey();
 
-                    id.add(aa);
-                    content.add(ss);
-                    date.add(ss1);
-                    obj.notifyDataSetChanged();
-                }
+                        String ss = dataSnapshot.child("headoffamily").child("headoffamily").getValue(String.class);
+                        String ss1 = dataSnapshot.child("headoffamily").child("nameofslum").getValue(String.class);
+
+                        id.add(aa);
+                        content.add(ss);
+                        date.add(ss1);
+                        obj.notifyDataSetChanged();
+                    }
+
+
+
 
 
 
